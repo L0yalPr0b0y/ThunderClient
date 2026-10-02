@@ -1,94 +1,116 @@
 <div align="center">
 
+<img src="https://raw.githubusercontent.com/L0yalPr0b0y/ThunderClient/main/assets/thunder_logo.png" width="140">
+
 # ⚡ THUNDER CLIENT
 
-### A Modern • Lightweight • Powerful Minecraft Launcher
+### The Next Generation Minecraft Launcher
 
 <p>
-<img src="https://img.shields.io/badge/Kotlin-2.4+-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white">
-<img src="https://img.shields.io/badge/Java-21-orange?style=for-the-badge&logo=openjdk&logoColor=white">
-<img src="https://img.shields.io/badge/Compose%20Desktop-UI-4285F4?style=for-the-badge">
-<img src="https://img.shields.io/badge/Minecraft-Launcher-FFC400?style=for-the-badge">
-</p>
-
-<p>
-<img src="https://img.shields.io/github/stars/L0yalPr0b0y/ThunderClient?style=flat-square&color=FFC400">
-<img src="https://img.shields.io/github/forks/L0yalPr0b0y/ThunderClient?style=flat-square">
-<img src="https://img.shields.io/github/issues/L0yalPr0b0y/ThunderClient?style=flat-square">
+A modern, lightweight and powerful Minecraft launcher<br>
+built with Kotlin + JetBrains Compose Desktop.
 </p>
 
 <br>
 
 <a href="https://github.com/L0yalPr0b0y/ThunderClient/releases">
-<img src="https://img.shields.io/badge/⚡%20DOWNLOAD-FFC400?style=for-the-badge">
+<img src="https://img.shields.io/badge/⚡%20DOWNLOAD-FFC400?style=for-the-badge&labelColor=101010">
+</a>
+
+<a href="https://github.com/L0yalPr0b0y/ThunderClient/releases">
+<img src="https://img.shields.io/github/downloads/L0yalPr0b0y/ThunderClient/total?style=for-the-badge&label=Downloads&color=FFC400">
 </a>
 
 <a href="https://github.com/L0yalPr0b0y/ThunderClient">
-<img src="https://img.shields.io/badge/💻%20SOURCE%20CODE-181717?style=for-the-badge&logo=github">
+<img src="https://img.shields.io/badge/Source%20Code-GitHub-181717?style=for-the-badge&logo=github">
 </a>
+
+<br><br>
+
+<img src="https://img.shields.io/github/stars/L0yalPr0b0y/ThunderClient?style=for-the-badge&color=FFC400">
+<img src="https://img.shields.io/github/forks/L0yalPr0b0y/ThunderClient?style=for-the-badge">
+<img src="https://img.shields.io/github/issues/L0yalPr0b0y/ThunderClient?style=for-the-badge">
 
 </div>
 
 ---
 
-## ⚡ About Thunder Client
+# ⚡ About
 
-**Thunder Client** is a modern Minecraft launcher built with **Kotlin** and **JetBrains Compose Desktop**.
+**Thunder Client** is a modern Minecraft launcher designed around one simple idea:
 
-The goal is simple:
+> **Launch faster. Manage easier. Play better.**
 
-> **Fast. Clean. Lightweight. Powerful.**
-
-Thunder Client is designed to make managing Minecraft versions, profiles, Java and game files simple while keeping the launcher lightweight and easy to use.
+Built from the ground up with **Kotlin** and **JetBrains Compose Desktop**, Thunder Client provides a clean and modern interface for managing Minecraft installations, profiles, accounts and game files.
 
 ---
 
-## ✨ Features
+# ✨ Highlights
 
-### 🎮 Minecraft
+<table>
+<tr>
+<td width="50%">
+
+## 🎮 Minecraft
 
 * Multiple Minecraft versions
 * Vanilla profiles
 * Fabric profiles
 * Forge profiles
 * OptiFine profiles
-* Automatic libraries
 * Automatic assets
-* Native library support
+* Automatic libraries
+* Native libraries
 
-### ⚡ Launcher
+</td>
 
-* Modern dark interface
+<td width="50%">
+
+## ⚡ Launcher
+
+* Modern dark UI
 * Lightweight design
 * Custom window size
 * Persistent settings
 * Automatic RAM detection
-* Manual RAM selection
+* Manual RAM allocation
 * Java 21 detection
 * Background downloads
 
-### 👤 Accounts
+</td>
+</tr>
+
+<tr>
+<td>
+
+## 👤 Accounts
 
 * Offline accounts
 * Multiple profiles
-* Account selection
+* Account switching
 * Minecraft-style usernames
-* Offline UUID generation
+* Offline UUID support
 
-### 🧩 Game Management
+</td>
 
-* Automatic version downloads
-* Library management
-* Asset management
-* Native extraction
-* Minecraft logs
-* Separate launcher directory
+<td>
+
+## 🧩 Management
+
+* Version management
+* Game-file management
+* Download management
+* Logs
+* Mods directory
+* Dedicated launcher directory
+
+</td>
+</tr>
+</table>
 
 ---
 
 # 🖥️ Screenshots
-
-Screenshots will be added as the launcher UI develops.
 
 <div align="center">
 
@@ -112,11 +134,39 @@ Screenshots will be added as the launcher UI develops.
 
 ---
 
-# 🎨 Design
+# 🧱 Architecture
+
+```text
+Thunder Client
+│
+├── Launcher UI
+│   ├── Home
+│   ├── Versions
+│   ├── Mods
+│   └── Settings
+│
+├── Account System
+│   └── Offline Profiles
+│
+├── Minecraft Manager
+│   ├── Versions
+│   ├── Libraries
+│   ├── Assets
+│   └── Natives
+│
+└── Game Launcher
+    ├── Java Detection
+    ├── Classpath
+    └── Minecraft Process
+```
+
+---
+
+# 🎨 Design System
 
 Thunder Client uses a dark interface with a signature thunder-yellow accent.
 
-| Element          | Color     |
+| Element          | Hex       |
 | ---------------- | --------- |
 | ⚡ Thunder Yellow | `#FFC400` |
 | 🖤 Background    | `#070707` |
@@ -130,16 +180,22 @@ Thunder Client uses a dark interface with a signature thunder-yellow accent.
 
 ---
 
-# 🛠️ Built With
+# 🛠️ Technology
 
-| Technology                  | Purpose                    |
-| --------------------------- | -------------------------- |
-| **Kotlin**                  | Main programming language  |
-| **Compose Desktop**         | User interface             |
-| **Java 21**                 | Runtime                    |
-| **Gradle**                  | Build system               |
-| **Kotlin Coroutines**       | Background operations      |
-| **Mojang Version Manifest** | Minecraft version metadata |
+<div align="center">
+
+<img src="https://skillicons.dev/icons?i=kotlin,java,gradle,idea,github">
+
+</div>
+
+| Technology              | Purpose                   |
+| ----------------------- | ------------------------- |
+| Kotlin                  | Main programming language |
+| Compose Desktop         | UI framework              |
+| Java 21                 | Runtime                   |
+| Gradle                  | Build system              |
+| Coroutines              | Background operations     |
+| Mojang Version Manifest | Minecraft metadata        |
 
 ---
 
@@ -153,19 +209,15 @@ Thunder Client uses a dark interface with a signature thunder-yellow accent.
 
 ## Run From Source
 
-Clone the repository:
-
 ```bash
 git clone https://github.com/L0yalPr0b0y/ThunderClient.git
 ```
-
-Enter the project:
 
 ```bash
 cd ThunderClient
 ```
 
-Run Thunder Client:
+Windows:
 
 ```powershell
 .\gradlew.bat :desktopApp:run
@@ -173,44 +225,13 @@ Run Thunder Client:
 
 ---
 
-# 📁 Project Structure
+# 📂 Data Directory
 
-```text
-ThunderClient/
-│
-├── desktopApp/
-│   └── src/
-│       └── main/
-│           ├── kotlin/
-│           │   └── com/
-│           │       └── thunderclient/
-│           │           └── launcher/
-│           │               └── main.kt
-│           │
-│           └── resources/
-│               └── images/
-│                   └── thunder_logo.png
-│
-├── shared/
-│
-├── gradle/
-│
-├── build.gradle.kts
-├── settings.gradle.kts
-└── README.md
-```
-
----
-
-# 📂 Minecraft Data
-
-Thunder Client keeps its Minecraft data inside:
+Thunder Client keeps its managed Minecraft data separate from the normal Minecraft directory.
 
 ```text
 %APPDATA%\.thunderclient
 ```
-
-Example:
 
 ```text
 .thunderclient/
@@ -225,13 +246,13 @@ Example:
 
 ---
 
-# 🗺️ Roadmap
+# 🚀 Roadmap
 
 ### Launcher
 
 * [x] Modern launcher UI
 * [x] Dark theme
-* [x] Minecraft version management
+* [x] Version management
 * [x] Offline accounts
 * [x] Java detection
 * [x] Asset downloading
@@ -241,7 +262,7 @@ Example:
 
 ### Profiles
 
-* [x] Vanilla profile
+* [x] Vanilla
 * [ ] Fabric improvements
 * [ ] Forge improvements
 * [ ] OptiFine improvements
@@ -254,23 +275,41 @@ Example:
 * [ ] ✨ Shader Manager
 * [ ] 👕 Skin Manager
 * [ ] 🌐 Server Manager
-* [ ] 🔄 Auto Updater
+* [ ] 🔄 Automatic Updater
 * [ ] 📥 Advanced Download Manager
 * [ ] 🎮 More Minecraft Versions
 
 ---
 
+# 📊 Project Stats
+
+<div align="center">
+
+<img src="https://img.shields.io/github/downloads/L0yalPr0b0y/ThunderClient/total?style=for-the-badge&label=Total%20Downloads&color=FFC400">
+
+<img src="https://img.shields.io/github/stars/L0yalPr0b0y/ThunderClient?style=for-the-badge&label=Stars">
+
+<img src="https://img.shields.io/github/forks/L0yalPr0b0y/ThunderClient?style=for-the-badge&label=Forks">
+
+<img src="https://img.shields.io/github/commit-activity/y/L0yalPr0b0y/ThunderClient?style=for-the-badge&label=Activity">
+
+</div>
+
+---
+
 # 🤝 Contributing
 
-Contributions and suggestions are welcome.
+Want to help improve Thunder Client?
 
-Fork the repository, create your feature branch and submit a Pull Request.
+1. Fork the repository.
+2. Create a feature branch.
+3. Make your changes.
+4. Commit your changes.
+5. Push your branch.
+6. Open a Pull Request.
 
 ```bash
 git checkout -b feature/my-feature
-```
-
-```bash
 git add .
 git commit -m "Add new feature"
 git push origin feature/my-feature
@@ -282,7 +321,7 @@ git push origin feature/my-feature
 
 Found a bug?
 
-Please open a GitHub Issue and include:
+Open an issue and provide:
 
 * Windows version
 * Java version
@@ -299,13 +338,11 @@ Please open a GitHub Issue and include:
 
 <div align="center">
 
+<img src="https://github.com/L0yalPr0b0y.png" width="100" style="border-radius:50%">
+
 ## ⚡ Loyalproboy650
 
 **Creator & Developer of Thunder Client**
-
-Building a modern Minecraft launcher with Kotlin and Compose Desktop.
-
-<br>
 
 <a href="https://github.com/L0yalPr0b0y">
 <img src="https://img.shields.io/badge/GitHub-L0yalPr0b0y-181717?style=for-the-badge&logo=github">
@@ -315,26 +352,22 @@ Building a modern Minecraft launcher with Kotlin and Compose Desktop.
 
 ---
 
-# ⭐ Support The Project
+# ⭐ Support
 
 If you like **Thunder Client**, consider giving the repository a ⭐.
 
-Your support helps the project grow.
+Every star helps the project grow.
 
 <div align="center">
 
-## ⚡ Build. Launch. Play.
+### ⚡ BUILD. LAUNCH. PLAY.
 
 # THUNDER CLIENT
 
 **A lightweight Minecraft launcher by Loyalproboy650.**
 
-</div>
+<br>
 
----
-
-<div align="center">
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=FFC400&height=100&section=footer">
+<img src="https://capsule-render.vercel.app/api?type=waving&color=FFC400&height=120&section=footer">
 
 </div>
