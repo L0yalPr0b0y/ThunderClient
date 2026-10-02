@@ -217,11 +217,6 @@ git clone https://github.com/L0yalPr0b0y/ThunderClient.git
 cd ThunderClient
 ```
 
-Windows:
-
-```powershell
-.\gradlew.bat :desktopApp:run
-```
 
 ---
 
