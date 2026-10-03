@@ -1,6 +1,7 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/L0yalPr0b0y/ThunderClient/main/assets/thunder_.png" width="300">
+<img src="https://raw.githubusercontent.com/L0yalPr0b0y/ThunderClient/main/assets/thunder_.png" width="500">
+
 
 ### The Next Generation Minecraft Launcher
 
