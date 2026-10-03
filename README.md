@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/L0yalPr0b0y/ThunderClient/main/assets/thunder_.png" width="150">
+<img src="https://raw.githubusercontent.com/L0yalPr0b0y/ThunderClient/main/assets/thunder_.png" width="200">
 
 # ⚡ THUNDER CLIENT
 
