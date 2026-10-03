@@ -13,7 +13,7 @@ built with Kotlin + JetBrains Compose Desktop.
 
 <br>
 
-<a href="https://github.com/L0yalPr0b0y/ThunderClient/releases">
+<a href="https://github.com/L0yalPr0b0y/ThunderClient/releases/latest">
 <img src="https://img.shields.io/badge/⚡%20DOWNLOAD-FFC400?style=for-the-badge&labelColor=101010">
 </a>
 
