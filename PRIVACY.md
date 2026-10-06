@@ -46,6 +46,5 @@ If this policy changes, the updated version will be posted in this repository wi
 
 - GitHub: https://github.com/L0yalPr0b0y/ThunderClient/issues
 - Discord: https://discord.gg/qF26hUTCmD
-- Email: **YOUR_EMAIL_HERE**
 
 *Thunder Client is not an official Minecraft product. It is not approved by or associated with Mojang Studios or Microsoft.*
