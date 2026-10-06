@@ -42,4 +42,4 @@ Thunder Client is **not** an official Minecraft product and is not approved by o
 ## 8. Changes and contact
 
 These terms may be updated; the latest version is always in this repository.
-Contact: https://github.com/L0yalPr0b0y/ThunderClient/issues · https://discord.gg/qF26hUTCmD · **YOUR_EMAIL_HERE**
+Contact: https://github.com/L0yalPr0b0y/ThunderClient/issues · https://discord.gg/qF26hUTCmD · 
